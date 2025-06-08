@@ -2,7 +2,7 @@ name: Keep Render Bot Alive
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Cada 5 minutos
+    - cron: "*/1 * * * *"  # Cada 1 minutos
   workflow_dispatch:
 
 jobs:
